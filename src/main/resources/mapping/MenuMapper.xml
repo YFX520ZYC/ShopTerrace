@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.love.shopterrace.mapper.MenuMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.love.shopterrace.entity.Menu">
+		<id column="mo_id" property="moId" />
+		<result column="cookname" property="cookname" />
+		<result column="mou_id" property="mouId" />
+	</resultMap>
+
+</mapper>

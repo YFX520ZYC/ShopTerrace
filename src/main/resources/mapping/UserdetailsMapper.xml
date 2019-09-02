@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.love.shopterrace.mapper.UserdetailsMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.love.shopterrace.entity.Userdetails">
+		<id column="id" property="id" />
+		<result column="userhead" property="userhead" />
+		<result column="username" property="username" />
+		<result column="usersignature" property="usersignature" />
+		<result column="age" property="age" />
+		<result column="sex" property="sex" />
+		<result column="hometown" property="hometown" />
+		<result column="email" property="email" />
+		<result column="QQ" property="qq" />
+		<result column="u_id" property="uId" />
+	</resultMap>
+
+</mapper>
